@@ -27,7 +27,7 @@ model = seq2seq_wrapper.Seq2Seq(xseq_len=xseq_len,
                                yvocab_size=yvocab_size,
                                ckpt_path='ckpt/cornell_corpus/',
                                emb_dim=emb_dim,
-                               num_layers=1
+                               num_layers=3
                                )
 
 
